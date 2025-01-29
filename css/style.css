@@ -1,4 +1,5 @@
 /* style.css 0078 group 02 Adonia Richards 1/23/2025 */
+@import "https://fonts.google.com/share?selection.family=Bungee";
 body, ul {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -15,6 +16,10 @@ body, ul {
     top: 0;
     z-index: 1000;
     width: 100%;
+  }
+
+  h2 {
+    font-family: Arial, "Bungee";
   }
   
   .navbar {
