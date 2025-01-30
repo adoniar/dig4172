@@ -32,15 +32,6 @@ body {
   transform: rotate(-89.43deg);
 }
 
-.logo {
-  width: 354px;
-  height: 354px;
-  position: absolute;
-  left: 24px;
-  top: 185px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .btn {
   width: 161px;
   height: 61px;
@@ -63,11 +54,5 @@ body {
 .login {
   top: 672px;
   left: 121px;
-}
-
-footer {
-  margin-top: 20px;
-  font-size: 14px;
-  color: gray;
 }
   
