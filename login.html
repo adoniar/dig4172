@@ -4,51 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dryft - Contact</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/loginstyle.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="images/picture_01.png" alt="Dryft Logo">
-      </div>
-      <ul class="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
-    </nav>
-  </header>
+  <div class="container">
+    <img class="image-1" src="images/picture_03.png" alt="Background Image 1">
+    <img class="image-2" src="images/picture_04.png" alt="Background Image 2">
+    <img class="logo" src="images/picture_01.png" alt="Dryft Logo">
 
-  <main>
-    <section id="contact">
-      <h2>Login</h2>
-      <form action="login.php" method="post">
+    <h1 class="title">Log In</h1>
 
-        <label for="username">Username:</label>
-      
-        <input type="text" id="username" name="username" required><br>
-      
-        
-      
-        <label for="password">Password:</label>
-      
-        <input type="password" id="password" name="password" required><br>
-      
-        
-      
-        <button type="submit">Login</button>
-      <!-- input form for username and password -->
-      </form>
-    </section>
-  </main>
+    <label for="username" class="label">Username</label>
+    <input type="text" id="username" class="input">
 
-  <footer>
-    <p>&copy; 2025 Dryft. All rights reserved.</p>
-  </footer>
+    <label for="password" class="label">Password</label>
+    <input type="password" id="password" class="input">
+
+    <button class="btn login-btn" onclick="navigateTo('homepage.html')">Log In</button>
+  </div>
+
+  <script src="js/loginscript.js"></script>
 </body>
 </html>
