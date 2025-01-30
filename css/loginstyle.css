@@ -1,3 +1,4 @@
+/* CSS for login page- Adonia Richards */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -12,32 +13,36 @@ body {
     height: 874px;
     margin: auto;
     background: white;
+    overflow: hidden;
+  }
+  
+  /* Background images */
+  .image-1, .image-2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: -1;  /* Blends images behind logo */
   }
   
   .image-1 {
-    width: 495.81px;
-    height: 499.03px;
-    position: absolute;
-    left: 310.54px;
-    top: 466.75px;
+    left: 50px;
+    top: 100px;
     transform: rotate(-166.22deg);
   }
   
   .image-2 {
-    width: 808.40px;
-    height: 719.58px;
-    position: absolute;
-    left: -54.50px;
-    top: 1298.13px;
+    left: -50px;
+    top: 300px;
     transform: rotate(-107.09deg);
   }
-
+  
+  /* Logo on top */
   .logo {
     width: 104px;
     height: 104px;
-    position: absolute;
-    left: 129px;
-    top: 121px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
   }
   
   .title {
@@ -57,10 +62,9 @@ body {
     font-family: Bungee;
   }
   
-  #username {
+  /* Input Fields */
+  .input {
     position: absolute;
-    left: 92px;
-    top: 358px;
     width: 219px;
     height: 49px;
     background: #648268;
@@ -68,21 +72,25 @@ body {
     border: none;
     padding: 10px;
     color: white;
+    font-size: 16px;
+  }
+  
+  .input::placeholder {
+    color: white; /* placeholder is visible */
+    opacity: 0.7;
+  }
+  
+  #username {
+    left: 92px;
+    top: 358px;
   }
   
   #password {
-    position: absolute;
     left: 92px;
     top: 437px;
-    width: 219px;
-    height: 49px;
-    background: #648268;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    color: white;
   }
   
+  /* Button */
   .btn {
     position: absolute;
     width: 161px;
@@ -104,13 +112,3 @@ body {
     left: 171px;
     top: 556px;
   }
-  
-  img {
-    position: absolute;
-    left: 149px;
-    top: 121px;
-    width: 104px;
-    height: 104px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
