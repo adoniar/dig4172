@@ -8,10 +8,11 @@ body {
 }
 
 .container {
-  position: relative;
   width: 402px;
   height: 874px;
+  position: relative;
   margin: auto;
+  background: white;
 }
 
 .image-1 {
@@ -21,6 +22,7 @@ body {
   left: 399.37px;
   top: 405px;
   transform: rotate(85.32deg);
+  transform-origin: 0 0;
 }
 
 .image-2 {
@@ -30,6 +32,7 @@ body {
   left: -534px;
   top: 733.32px;
   transform: rotate(-89.43deg);
+  transform-origin: 0 0;
 }
 
 .logo {
@@ -41,29 +44,46 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Buttons */
 .btn {
   width: 161px;
   height: 61px;
   background: #648268;
-  color: white;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  border-radius: 10px;
-  border: none;
   position: absolute;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Get Started Button */
 .get-started {
-  top: 590px;
   left: 121px;
+  top: 590px;
 }
 
+/* Login Button */
 .login {
-  top: 672px;
   left: 121px;
+  top: 672px;
+}
+
+/* Button text */
+.text {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: Bungee, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Get Started Text */
+.get-started-text {
+  left: 145px;
+  top: 611px;
+}
+
+/* Login Text */
+.login-text {
+  left: 171px;
+  top: 693px;
 }
