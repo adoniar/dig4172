@@ -5,28 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  <link rel="stylesheet" href="css/loginstyle.css">
+  <script>
+    function redirectToHomepage() {
+      window.location.href = 'homepage.html';
+    }
+  </script>
 </head>
-<body>
-  <div class="container">
-    <!-- Background images -->
-    <img class="image-1" src="images/picture_03.png" alt="Background Image 1">
-    <img class="image-2" src="images/picture_04.png" alt="Background Image 2">
-
-    <!-- Logo (positioned above the background images) -->
-    <img class="logo" src="images/picture_01.png" alt="Dryft Logo">
-
-    <h1 class="title">Log In</h1>
-
-    <label for="username" class="label">Username</label>
-    <input type="text" id="username" class="input" placeholder="Username">
-
-    <label for="password" class="label">Password</label>
-    <input type="password" id="password" class="input" placeholder="Password">
-
-    <button class="btn login-btn" onclick="navigateTo('homepage.html')">Log In</button>
+<div style="width: 402px; height: 874px; position: relative; background: white">
+  <img style="width: 495.81px; height: 499.03px; left: 310.54px; top: 466.75px; position: absolute; transform: rotate(-166.22deg); transform-origin: 0 0" src="images/picture_03.png" />
+  <img style="width: 808.40px; height: 719.58px; left: -54.50px; top: 1298.13px; position: absolute; transform: rotate(-107.09deg); transform-origin: 0 0" src="images/picture_04.png" />
+  <div style="width: 219px; height: 49px; left: 92px; top: 358px; position: absolute; background: #648268; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+    <input type="text" placeholder="Username" style="width: 100%; height: 100%; border: none; border-radius: 10px; padding-left: 10px;">
   </div>
-
-  <script src="js/loginscript.js"></script>
+  <div style="width: 219px; height: 49px; left: 92px; top: 437px; position: absolute; background: #648268; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+    <input type="password" placeholder="Password" style="width: 100%; height: 100%; border: none; border-radius: 10px; padding-left: 10px;">
+  </div>
+  <div style="left: 112px; top: 256px; position: absolute; color: white; font-size: 48px; font-family: Bungee; font-weight: 400; word-wrap: break-word">log in</div>
+  <div style="width: 161px; height: 61px; left: 121px; top: 535px; position: absolute; background: #648268; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px" onclick="redirectToHomepage()">
+    <div style="left: 171px; top: 556px; position: absolute; color: white; font-size: 16px; font-family: Bungee; font-weight: 400; word-wrap: break-word; cursor: pointer;">Log in</div>
+  </div>
+  <img style="width: 104px; height: 104px; left: 149px; top: 121px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="images/picture_01.png" />
+</div>
 </body>
 </html>
