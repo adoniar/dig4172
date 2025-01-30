@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 
-.image-1 {
+.image-3 {
   width: 495.81px;
   height: 499.03px;
   position: absolute;
@@ -30,6 +30,15 @@ body {
   left: -534px;
   top: 733.32px;
   transform: rotate(-89.43deg);
+}
+
+.image-1 {
+  width: 354px;
+  height: 354px;
+  position: absolute;
+  left: 24px;
+  top: 185px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn {
