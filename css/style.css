@@ -1,110 +1,73 @@
 /* style.css 0078 group 02 Adonia Richards 1/23/2025 */
-body, ul {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #0d5114;
-    color: white;
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-  }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
 
-  h2 {
-    font-family: Arial;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px; /* Center header content */
-    margin: 0 auto;
-  }
-  
-  .logo img {
-    max-width: 150px; /* Resized logo */
-    height: auto;
-  }
+.container {
+  position: relative;
+  width: 402px;
+  height: 874px;
+  margin: auto;
+}
 
-  .nav-menu {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    list-style: none;
-    max-width: 800px; /* Limit menu width */
-    margin: 0 auto;
-    padding: 0;
-  }  
-  
-  .nav-menu li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-menu li a:hover {
-    color: #00aaff; /* Highlight color */
-  }
-  
-  /* Responsive Menu Toggle */
-  .menu-toggle {
-    display: none;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
+.image-1 {
+  width: 495.81px;
+  height: 499.03px;
+  position: absolute;
+  left: 399.37px;
+  top: 405px;
+  transform: rotate(85.32deg);
+}
 
-  main {
-    padding: 2rem;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .nav-menu {
-      display: none;
-      flex-direction: column; /* Vertical layout */
-      align-items: flex-start;
-      padding: 1rem;
-      background-color: #0d5114;
-      width: 100%;
-    }
-  
-    .nav-menu.open {
-      display: flex; /* Show menu when open */
-    }
-  
-    .menu-toggle {
-      display: block; /* Visible only on small screens */
-    }
-  }
+.image-2 {
+  width: 733.35px;
+  height: 1016.73px;
+  position: absolute;
+  left: -534px;
+  top: 733.32px;
+  transform: rotate(-89.43deg);
+}
+
+.logo {
+  width: 354px;
+  height: 354px;
+  position: absolute;
+  left: 24px;
+  top: 185px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  width: 161px;
+  height: 61px;
+  background: #648268;
+  color: white;
+  font-size: 16px;
+  font-family: Bungee;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.get-started {
+  top: 590px;
+  left: 121px;
+}
+
+.login {
+  top: 672px;
+  left: 121px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}
   
